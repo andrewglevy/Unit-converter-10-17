@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Unit converter</title>
+    <link href="converter.css" type="text/css" rel="stylesheet"/>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="converter.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>
+        Unit Converter page
+      </h1>
+    </header>
+    <main>
+      <select id="units" name="Units">
+        <option value="F-C">Faranheit to Celsius</option>
+        <option value="C-F">Celsius to Faranheit</option>
+        <option value="M-Km">Miles to Kilometers</option>
+        <option value="Km-M">Kilometers to Miles</option>
+      </select>
+    <input id="input" type="text"></input>
+    <input id="submit" type="button" value="Convert"></input>
+    <p id="output"></p>
+    </main>
+  </body>
+</html>
